@@ -7,7 +7,7 @@ function Search({ onSearch }) {
   const handleSearch = (e) => {
     const query = e.target.value;
     setSearchQuery(query);
-    onSearch(query); // Call the onSearch prop with the search query
+    onSearch(query);
   };
 
   return (
